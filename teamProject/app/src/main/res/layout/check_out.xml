@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+
+    <!-- listview，购物车里面的东西有可能比较多，需要用listview来进行显示 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp">
+
+        <ListView
+            android:id="@+id/cartItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#808080"
+            android:dividerHeight="0.5dp"
+            android:layout_marginLeft="10dp" >
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal">
+
+
+
+        <!-- 合计的布局 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Total:$"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="#F63A19"
+            android:text="27.5"
+            android:id="@+id/totalPrice"/>
+
+        <!-- 去结算的布局 -->
+    </LinearLayout>
+
+    <Button android:id="@+id/confirm"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="confirm"
+        android:layout_gravity="center_horizontal"
+        android:onClick="confirm" />
+
+</LinearLayout>

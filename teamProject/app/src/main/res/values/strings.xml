@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="text_back">back</string>
+    <string name="text_forward">cart</string>
+
+    <string-array name="KFC">
+        <item>Hot Wings (5 pieces)</item>
+        <item>Hot Wings (10 pieces)</item>
+        <item>Chicken Bowl</item>
+        <item>Big Crunch</item>
+        <item>Big Crunch BBQ Bacon</item>
+        <item>Spicy Doublicious</item>
+        <item>Toasted Twister</item>
+        <item>Fries</item>
+        <item>Popcorn Cicken Snack Box</item>
+        <item>Strawberry Swirl Cheesecake</item>
+        <item>Chocolate Lava Cake</item>
+    </string-array>
+    <string-array name="Mcdonalds">
+        <item>Hot Wings (5 pieces)</item>
+        <item>Hot Wings (10 pieces)</item>
+        <item>Chicken Bowl</item>
+        <item>Big Crunch</item>
+        <item>Big Crunch BBQ Bacon</item>
+        <item>Spicy Doublicious</item>
+        <item>Toasted Twister</item>
+        <item>Fries</item>
+        <item>Popcorn Cicken Snack Box</item>
+        <item>Strawberry Swirl Cheesecake</item>
+        <item>Chocolate Lava Cake</item>
+    </string-array>
+    <string-array name="BurgerKing">
+        <item>Hot Wings (5 pieces)</item>
+        <item>Hot Wings (10 pieces)</item>
+        <item>Chicken Bowl</item>
+        <item>Big Crunch</item>
+        <item>Big Crunch BBQ Bacon</item>
+        <item>Spicy Doublicious</item>
+        <item>Toasted Twister</item>
+        <item>Fries</item>
+        <item>Popcorn Cicken Snack Box</item>
+        <item>Strawberry Swirl Cheesecake</item>
+        <item>Chocolate Lava Cake</item>
+    </string-array>
+    <string-array name="TripleOs">
+        <item>Hot Wings (5 pieces)</item>
+        <item>Hot Wings (10 pieces)</item>
+        <item>Chicken Bowl</item>
+        <item>Big Crunch</item>
+        <item>Big Crunch BBQ Bacon</item>
+        <item>Spicy Doublicious</item>
+        <item>Toasted Twister</item>
+        <item>Fries</item>
+        <item>Popcorn Cicken Snack Box</item>
+        <item>Strawberry Swirl Cheesecake</item>
+        <item>Chocolate Lava Cake</item>
+    </string-array>
+    <string-array name="Reasturant">
+        <item>KFC</item>
+        <item>Mcdonalds</item>
+        <item>TripleOs</item>
+        <item>Burger King</item>
+    </string-array>
+</resources>
